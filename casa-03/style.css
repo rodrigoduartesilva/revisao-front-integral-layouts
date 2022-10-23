@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 800px;
+    background-image: url(/casa-03/assets/image-header.jpg);
+    background-size: 1440px 800px;
+}
+
+body {
+    width: 1349.2px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 195px 345px 536px 345px;
+    color: #FFFFFF;
+    font-family: 'Fraunces', serif;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 48px 0 40px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    margin-left: 47px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    color: #FFFFFF;
+}
+
+.navbar .btn-header {
+    padding: 15px 30px;
+    background-color: #FFFFFF;
+    font-family: 'Fraunces', serif;
+    border-radius: 28px;
+    color: #24303E;
+}
+
+
+main {
+    background-color: #d6d43d;
+}
+
+
+
+
+
+.img-footer {
+    display: flex;
+}
+
+.img-footer img{
+    width: 337.3px;
+}
+
+.about-icons {
+    height: 350px;
+    background: #90D4C6;
+    padding: 72px 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-dark-footer {
+    width: 170px;
+    height: 33px;
+    margin-bottom: 40px;
+}
+
+.services ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.services ul a {
+    color: #458D7E;
+    text-decoration: none;
+    margin-right: 57px;
+    margin-bottom: 88px;
+}
+
+.icons-images {
+    margin-right: 28px;
+}
