@@ -12,6 +12,7 @@ header {
 
 body {
     width: 1349.2px;
+    min-height: 100vh;
 }
 
 header h1 {
@@ -54,13 +55,73 @@ header h1 {
     color: #24303E;
 }
 
+/*------------------------------------------------------------------------------*/
 
-main {
-    background-color: #d6d43d;
+.item-1, .item-2, .item-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.item-2, .item-3 {
+    height: 596px;
+    width: 960px;
+}
 
+.item-3 {
+    margin-left: 149px;
+}
 
+.text-1{
+    padding: 158px 110px 157px 165px;
+}
+
+.text-1 h1, span,  .text-2 h1, span{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.text-1 h1 {
+    margin-bottom: 32px;
+}
+
+.text-1 p, .text-2 p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.text-2 {
+    padding: 157px 165px 157px 110px;
+}
+
+.text-2 h1 {
+    margin-bottom: 33px;
+}
+
+.text-2 p {
+    margin-bottom: 40px;
+}
+
+.item-4 h1 {
+    color: #A7AAAD;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 81px;
+}
+
+.profiles {
+    display: flex;
+}
+
+.profile-1 img, .profile-2 img, .profile-3 img{
+    border-radius: 50%;
+}
+
+/*------------------------------------------------------------------------------*/
 
 
 .img-footer {
@@ -72,13 +133,8 @@ main {
 }
 
 .about-icons {
-    height: 350px;
     background: #90D4C6;
     padding: 72px 570px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .logo-dark-footer {
@@ -87,18 +143,23 @@ main {
     margin-bottom: 40px;
 }
 
-.services ul {
+.services {
     display: flex;
-    list-style-type: none;
-}
-
-.services ul a {
-    color: #458D7E;
-    text-decoration: none;
-    margin-right: 57px;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 88px;
 }
 
-.icons-images {
+.services li {
+    list-style-type: none;
+}
+
+.services a {
+    color: #458D7E;
+    text-decoration: none;
+    margin-right: 57px; 
+}
+
+.icons-images a{
     margin-right: 28px;
 }
