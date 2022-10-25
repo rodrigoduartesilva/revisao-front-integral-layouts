@@ -92,7 +92,7 @@ header h1 {
 }
 
 .text-2 {
-    padding: 157px 165px 157px 110px;
+    margin-left: 300px;
 }
 
 .text-2 h1 {
@@ -117,8 +117,45 @@ header h1 {
     display: flex;
 }
 
+.profile-1, .profile-2, .profile-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 106px 169px 279px 139px;
+}
+
+.item-4 img {
+    margin-bottom: 58px;
+}
+
+.item-4 p {
+    margin-bottom: 69px;
+}
+
 .profile-1 img, .profile-2 img, .profile-3 img{
     border-radius: 50%;
+}
+
+.descricao-cargo {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: #A7AAAD;
+    font-size: 14px;
+}
+
+.nome-profile {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+.item-4 p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: #5B636D;
+    font-size: 18px;
 }
 
 /*------------------------------------------------------------------------------*/
